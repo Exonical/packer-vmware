@@ -1,0 +1,52 @@
+---
+menu:
+  - entry: "Linux Distribution"
+    build:
+      var_files:
+        - "vsphere.pkrvars.hcl"
+        - "build.pkrvars.hcl"
+        - "ansible.pkrvars.hcl"
+        - "proxy.pkrvars.hcl"
+        - "common.pkrvars.hcl"
+    submenu:
+      - entry: "Rocky Linux 9"
+        build:
+          path: "builds/linux/rocky/9/"
+          var_files:
+            - "network.pkrvars.hcl"
+            - "linux-storage.pkrvars.hcl"
+      - entry: "Rocky Linux 8"
+        build:
+          path: "builds/linux/rocky/8/"
+          var_files:
+            - "network.pkrvars.hcl"
+            - "linux-storage.pkrvars.hcl"
+
+  - entry: "Microsoft Windows"
+    build:
+      var_files:
+        - "vsphere.pkrvars.hcl"
+        - "ansible.pkrvars.hcl"
+        - "proxy.pkrvars.hcl"
+        - "build.pkrvars.hcl"
+        - "common.pkrvars.hcl"
+    submenu:
+      - entry: "Windows Server 2025 - Standard Only"
+        message: "Microsoft Windows Server 2025 Standard Templates"
+        build:
+          path: "builds/windows/server/2025/"
+          only:
+            - vsphere-iso.windows-server-standard-dexp
+            - vsphere-iso.windows-server-standard-core
+      - entry: "Windows Server 2022 - Standard Only"
+        message: "Microsoft Windows Server 2022 Standard Templates"
+        build:
+          path: "builds/windows/server/2022/"
+          only:
+            - vsphere-iso.windows-server-standard-dexp
+            - vsphere-iso.windows-server-standard-core
+      - entry: "Windows 11 - Enterprise Only"
+        build:
+          path: "builds/windows/desktop/11/"
+          only:
+            - vsphere-iso.windows-desktop-ent
