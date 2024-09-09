@@ -4,7 +4,7 @@
 
 # Credentials
 
-vsphere_server   = "vcenter.hpc2.dev"
+vsphere_server   = "vcenter.example.com"
 vsphere_username = "Administrator@vsphere.local"
 vsphere_password = "************"
 vsphere_insecure = false

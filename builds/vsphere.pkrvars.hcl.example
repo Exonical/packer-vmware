@@ -7,14 +7,14 @@
 */
 
 // vSphere Credentials
-vsphere_endpoint            = "vcenter.hpc2.dev"
+vsphere_endpoint            = "vcenter.example.com"
 vsphere_username            = "Administrator@vsphere.local"
-vsphere_password            = "SunShine_Mon3ys"
+vsphere_password            = "VMw@re123!"
 vsphere_insecure_connection = true
 
 // vSphere Settings
 vsphere_datacenter                     = "Datacenter"
-//vsphere_cluster                        = "sfo-w01-cl01"
+//vsphere_cluster                        = "Management"
 vsphere_host                         = "10.100.0.18"
 vsphere_datastore                      = "local-datastore"
 vsphere_network                        = "Core"
