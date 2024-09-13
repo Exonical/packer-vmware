@@ -1,5 +1,3 @@
-
-
 # Rocky Linux 8
 
 ### Installs from the first attached CD-ROM/DVD on the system.

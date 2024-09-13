@@ -7,7 +7,7 @@
 
 vsphere_insecure_connection="false"
 vsphere_set_host_for_datastore_uploads="false"
-common_vm_version="19"
+common_vm_version="21"
 common_tools_upgrade_policy="true"
 common_remove_cdrom="true"
 common_template_conversion="false"

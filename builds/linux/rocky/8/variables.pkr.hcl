@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     Rocky Linux 8 input variables.
@@ -125,7 +123,7 @@ variable "vm_guest_os_type" {
 variable "vm_guest_os_cloudinit" {
   type        = bool
   description = "Enable cloud-init for the guest operating system."
-  default     = false
+  default     = true
 }
 
 variable "vm_firmware" {

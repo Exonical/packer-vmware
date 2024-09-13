@@ -1,5 +1,3 @@
-
-
 <#
     .DESCRIPTION
     Enables Windows Remote Management on Windows builds.

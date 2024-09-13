@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     Rocky Linux 8 network variables.
@@ -11,7 +9,7 @@
 variable "vm_network_device" {
   type        = string
   description = "The network device of the VM."
-  default     = "ens192"
+  default     = "ens33"
 }
 
 variable "vm_ip_address" {

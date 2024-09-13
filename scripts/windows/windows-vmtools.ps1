@@ -1,5 +1,3 @@
-
-
 <#
     .DESCRIPTION
     Installs VMware Tools and runs re-attempts if the services fail on the first attempt.

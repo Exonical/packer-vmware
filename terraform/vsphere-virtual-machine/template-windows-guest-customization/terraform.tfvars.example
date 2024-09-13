@@ -12,8 +12,8 @@ vsphere_insecure = false
 # vSphere Settings
 
 vsphere_datacenter = "sfo-w01-dc01"
-vsphere_cluster    = "Management"
-vsphere_datastore  = "Management-ds-vsan01"
+vsphere_cluster    = "sfo-w01-cl01"
+vsphere_datastore  = "sfo-w01-cl01-ds-vsan01"
 vsphere_folder     = "workloads"
 vsphere_network    = "w01-172.16.100.0"
 vsphere_template   = "windows-server-2022-standard"

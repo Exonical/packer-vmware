@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     Storage variables used for Linux builds.
@@ -147,6 +145,19 @@ vm_disk_lvm = [
         },
         mount = {
           path    = "/var/log/audit",
+          options = "nodev,noexec,nosuid",
+        },
+      },
+      // New /var/tmp partition
+      {
+        name = "lv_vartmp",
+        size = 8192,
+        format = {
+          label  = "VARTMPFS",
+          fstype = "xfs",
+        },
+        mount = {
+          path    = "/var/tmp",
           options = "nodev,noexec,nosuid",
         },
       },

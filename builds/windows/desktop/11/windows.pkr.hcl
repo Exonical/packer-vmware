@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     Microsoft Windows 11 build definition.

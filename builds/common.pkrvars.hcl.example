@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     Common variables used for all builds.
@@ -30,7 +28,7 @@ common_iso_content_library_enabled = false
 
 // Boot and Provisioning Settings
 common_data_source       = "http"
-common_http_ip           = "10.100.0.150"
+common_http_ip           = "10.0.0.150"
 common_http_port_min     = 8000
 common_http_port_max     = 8099
 common_ip_wait_timeout   = "20m"

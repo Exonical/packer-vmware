@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     Rocky Linux 9 storage variables.

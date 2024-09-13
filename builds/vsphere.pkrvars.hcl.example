@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     VMware vSphere variables used for all builds.
@@ -14,10 +12,10 @@ vsphere_insecure_connection = true
 
 // vSphere Settings
 vsphere_datacenter                     = "Datacenter"
-//vsphere_cluster                        = "Management"
-vsphere_host                         = "10.100.0.18"
+vsphere_cluster                        = "Cluster"
+//vsphere_host                         = "10.0.0.10"
 vsphere_datastore                      = "local-datastore"
-vsphere_network                        = "Core"
+vsphere_network                        = "CoreNet"
 vsphere_folder                         = "linux-templates"
 //vsphere_resource_pool                = "sfo-w01-rp01"
 vsphere_set_host_for_datastore_uploads = false

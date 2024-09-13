@@ -1,5 +1,3 @@
-
-
 /*
     DESCRIPTION:
     Network variables used for all builds.
@@ -8,7 +6,7 @@
 */
 
 // VM Network Settings (default DHCP)
-vm_ip_address = "10.100.0.201"
+vm_ip_address = "10.0.0.201"
 vm_ip_netmask = 22
-vm_ip_gateway = "10.100.0.1"
-vm_dns_list   = [ "10.100.0.5" ]
+vm_ip_gateway = "10.0.0.1"
+vm_dns_list   = [ "10.0.0.5" ]
